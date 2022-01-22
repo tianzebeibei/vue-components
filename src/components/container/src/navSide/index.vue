@@ -16,6 +16,10 @@
       <el-icon-timer></el-icon-timer>
       <span>趋势</span>
     </el-menu-item>
+    <el-menu-item index="5">
+      <el-icon-timer></el-icon-timer>
+      <span>通知菜单</span>
+    </el-menu-item>
   </el-menu>
 </template>
 
