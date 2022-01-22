@@ -5,6 +5,7 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import * as Icons from '@element-plus/icons'
 import { toLine } from './utils'
+import mUI from './components'
 
 const app = createApp(App)
 
@@ -15,4 +16,5 @@ for (let i in Icons) {
   // 注册全部组件
   app.component(`el-icon-${toLine(i)}`, (Icons as any)[i])
 }
-app.use(router).use(ElementPlus).mount('#app')
+app.use(router).use(ElementPlus).use(mUI)
+app.mount('#app')
