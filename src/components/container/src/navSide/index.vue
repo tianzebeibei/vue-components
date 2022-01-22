@@ -12,6 +12,10 @@
       <el-icon-timer></el-icon-timer>
       <span>省市区选择</span>
     </el-menu-item>
+    <el-menu-item index="4">
+      <el-icon-timer></el-icon-timer>
+      <span>趋势</span>
+    </el-menu-item>
   </el-menu>
 </template>
 
