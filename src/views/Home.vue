@@ -8,5 +8,9 @@
 
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
+svg {
+  width: 1em;
+  height: 1em;
+}
 </style>

@@ -41,4 +41,9 @@ let props = defineProps({
 });
 </script>
 
-<style lang="scss" scope></style>
+<style lang="scss" scoped>
+svg {
+  width: 1em;
+  height: 1em;
+}
+</style>

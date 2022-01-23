@@ -13,7 +13,7 @@
             v-for="(item1, idx) in item.content"
           >
             <div class="avatar">
-              <el-avatar :size="small" :src="item1.avatar"></el-avatar>
+              <el-avatar size="small" :src="item1.avatar"></el-avatar>
             </div>
             <div class="content">
               <div v-if="item1.title" class="title">
@@ -63,7 +63,7 @@ let props = defineProps({
 
 let emits = defineEmits(["clickItem", "clickAction"]);
 
-let clickItem = (item: ListItem, index: number) => {
+let clickItem = (item: any, index: number) => {
   emits("clickItem", { item, index });
 };
 let clickAction = (item: ActionOptions, index: number) => {
