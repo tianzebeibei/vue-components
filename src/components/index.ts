@@ -6,6 +6,7 @@ import notification from './notification'
 import list from './list'
 import menu from './menus'
 import progress from './progress'
+import form from './form'
 
 const components = [
   chooseArea,
@@ -14,7 +15,8 @@ const components = [
   notification,
   list,
   menu,
-  progress
+  progress,
+  form
 ]
 
 export default {
