@@ -53,6 +53,71 @@ let options: FormOptions[] = [
       clearable: true,
     },
   },
+  {
+    type: "select",
+    value: "2",
+    label:'职位',
+    placeholder: "请选择职位",
+    prop: "role",
+    rules: [
+      {
+        required: true,
+        message: "职位不能为空",
+        trigger: "blur",
+      },
+    ],
+    children: [
+      { type: "option", label: "经理", value: "1" },
+      { type: "option", label: "主管", value: "2" },
+      { type: "option", label: "员工", value: "3" },
+    ],
+    attrs:{
+      style:{
+        width:'500px'
+      }
+    }
+  },
+  {
+    type:'checkbox-group',
+    value:[],
+    prop:'like',
+    label:'爱好',
+    children:[
+      {
+        type:'checkbox',
+        label:'足球',
+        value:'1'
+      },{
+        type:'checkbox',
+        label:'篮球',
+        value:'2'
+      },{
+        type:'checkbox',
+        label:'网球',
+        value:'3'
+      }
+    ]
+  },{
+    type:'radio-group',
+    value:[],
+    prop:'like',
+    label:'爱好',
+    children:[
+      {
+        type:'radio',
+        label:'足球',
+        value:'1'
+      },{
+        type:'radio',
+        label:'篮球',
+        value:'2'
+      },{
+        type:'radio',
+        label:'网球',
+        value:'3'
+      }
+    ]
+  }
 ];
 </script>
 
