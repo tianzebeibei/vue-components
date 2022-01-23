@@ -19,7 +19,7 @@ let toggle = () => {
 };
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 .header {
   height: 60px;
   padding: 0 20px;

@@ -10,10 +10,6 @@
 <style lang="scss">
 @import "./styles/ui";
 @import "./styles/ui";
-svg {
-  width: 1em;
-  height: 1em;
-}
 .el-popover{
   padding: 0 !important;
 }
